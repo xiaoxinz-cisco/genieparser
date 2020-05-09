@@ -33,5 +33,6 @@ jobs:
         uses: xiaoxinz-cisco/pyats_run_tests@master
         with:
 #         current path is: github/workspace == this repository
+          env: genieparser_venv/bin/activate
           path: 'tests'
           deps_list: 'requirement'
